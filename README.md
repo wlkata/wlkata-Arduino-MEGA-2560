@@ -40,17 +40,17 @@ void setup() {
     Serial.begin(115200);
     Serial.println("\r\nInit");
   
-	RS485.begin(38400);	// Set baud rate
-	RS485.setOutTimeFunction(rs485_error); // Set the communication timeout period and callback function
+    RS485.begin(38400);	// Set baud rate
+    RS485.setOutTimeFunction(rs485_error); // Set the communication timeout period and callback function
     mirobot1.init(1);  // Set device address
 	
-	Serial.println("Start");
+    Serial.println("Start");
 	
   // The default homing does not include a 6th axis and an extension axis
     Serial.println("Device homing ...");
     mirobot1.homing();
     while(mirobot1.getState() != Idle);	// Wait for homing to end
-     Serial.println("End of homing");
+        Serial.println("End of homing");
 
 /*
   // Only the 6th axis homing
@@ -91,7 +91,7 @@ void setup() {
     RS485.setOutTimeFunction(rs485_error); // Set the communication timeout period and callback function
     mirobot1.init(1);  // Set device address
 	
-	Serial.println("Start");
+    Serial.println("Start");
 	
   // Device homing if the status is Alarm
     if(mirobot1.getState() == Alarm){
