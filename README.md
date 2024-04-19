@@ -24,7 +24,8 @@ The Arduino MEGA 2560 controller (hereinafter referred to as MEGA 2560) is a hig
   <img src="./img/img2.png" style="width: 30%;">
 </div>
 
-## example
+## Example
+
 Using a Mirabot robotic arm for homing
 ```c++
 #include "WLKATA.h"
@@ -72,7 +73,7 @@ void setup() {
 void loop() {
 }
 ```
-Mirabot robotic arm executes offline files
+Mirobot robotic arm executes offline files
 ```c++
 #include "WLKATA.h"
 
