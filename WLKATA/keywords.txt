@@ -1,0 +1,99 @@
+#######################################
+# Wlkata-Arduino keyword
+# wlkata:www.wlkata.com
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Mirobot_UART	KEYWORD1
+GY33	KEYWORD1
+MS4220_UART	KEYWORD1
+RS485AssicMaster	KEYWORD1
+
+
+#######################################
+# Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+begin	KEYWORD2
+sendMsg	KEYWORD2
+zero	KEYWORD2
+movePose	KEYWORD2
+
+readColor	KEYWORD2
+shieldSwitchRead	KEYWORD2
+shieldBuzzerWrite	KEYWORD2
+shieldBuzzer	KEYWORD2
+RGB_color	KEYWORD2
+setEndtPump	KEYWORD2
+setEndtGripper	KEYWORD2
+reset	KEYWORD2
+homing		KEYWORD2
+waitIdle		KEYWORD2
+getState 	KEYWORD2
+getStatus	KEYWORD2
+zero	KEYWORD2
+setMovePos		KEYWORD2
+setMoveSpeed	KEYWORD2
+moveArc	KEYWORD2
+moveJoints	KEYWORD2
+motionSpeedRatio	KEYWORD2
+movePause   KEYWORD2
+moveContinue    KEYWORD2
+moveStop    KEYWORD2
+setExjRatio KEYWORD2
+moveExjDist KEYWORD2
+moveExjPulse    KEYWORD2
+setEndtGripper  KEYWORD2
+setEndtPump KEYWORD2
+setEndtPwm  KEYWORD2
+state   KEYWORD2
+pumpPwm KEYWORD2
+cartesian   KEYWORD2
+angle   KEYWORD2
+shieldInit  KEYWORD2
+setBrightness   KEYWORD2
+setOutTimeFunction	KEYWORD2
+setMonitorFunction	KEYWORD2
+moveP	KEYWORD2
+moveAlway	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+WHITE	LITERAL1
+RED		LITERAL1
+GREEN	LITERAL1
+YELLOW	LITERAL1
+VIOLET	LITERAL1
+BLACK	LITERAL1
+
+PIN_SW1	LITERAL1
+PIN_SW2	LITERAL16
+
+true		LITERAL1
+false	LITERAL1
+CLOSE	LITERAL1
+STATUS_MIROBOT	LITERAL1
+cartesian	LITERAL1
+state	LITERAL1
+pos		LITERAL1
+feed	LITERAL1
+
+Alarm	LITERAL1
+Run		LITERAL1
+
+MOVEP	LITERAL1
+MOVEL	LITERAL1
+JUMP	LITERAL1
+
+CW		LITERAL1
+
+ABS		LITERAL1
+INC		LITERAL1
+
+IN	LITERAL1
+OUT	LITERAL1
+
