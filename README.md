@@ -87,8 +87,8 @@ void setup() {
     Serial.begin(115200);
     Serial.println("\r\nInit");
   
-	RS485.begin(38400);	// Set baud rate
-	RS485.setOutTimeFunction(rs485_error); // Set the communication timeout period and callback function
+    RS485.begin(38400);	// Set baud rate
+    RS485.setOutTimeFunction(rs485_error); // Set the communication timeout period and callback function
     mirobot1.init(1);  // Set device address
 	
 	Serial.println("Start");
